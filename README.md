@@ -44,11 +44,15 @@ import ref2tex.ieee2tex as ieee2tex
 ieee2tex.ieee2tex('inputRefs.txt','inputFile.tex','bibFile.bib','my_out_file.tex')
 
 ```
+## Dependecies 
+1. `bibtexparser`
+2. `python-docx`
 
 ## Ongoing improvements
 - bibtex entry generation, in case it is missing in the provided bibtex library.
 - Deep learning based reference identification (author,year,journal/conference ...etc.) rather than parsing
 - provide a web-based service for online citation converting
+- provide a CLI-tool to avoid dealing with Python. 
 
 ## Licence
 Licensed under the MIT license.
